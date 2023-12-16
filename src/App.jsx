@@ -16,7 +16,7 @@ function App() {
         <header className='header'>
             <div className='header-principal'>
                 <h2 className='header-item-title'>SOLUCIONES DE SOFTWARE</h2>
-                <p className='header-item-text'>|</p>
+                <p className='header-item-text pipe'>|</p>
                 <p className='header-item-text'>Transformando ideas en Soluciones Digitales</p>
             </div>
 
@@ -94,13 +94,13 @@ function App() {
             <div className='pattern-icon'>
                 <div className='developer-figure'>
                         <img src={programador} className="developer" alt="developer"/>
-                        <h4>Ingeniero de Software</h4>
-                        <p>Jesus Mendivielso</p>
+                        <h4 className='developer-text'>Ingeniero de Software</h4>
+                        <p className='developer-text'>Jesus Mendivielso</p>
                 </div>
                 <div className='developer-figure'>
                         <img src={programador} className="developer" alt="developer" />
-                        <h4>Ingeniero de Software</h4>
-                        <p>Alexander Rodriguez</p>
+                        <h4 className='developer-text'>Ingeniero de Software</h4>
+                        <p className='developer-text'>Alexander Rodriguez</p>
                 </div>
             </div>
         </section>
@@ -108,7 +108,7 @@ function App() {
         <hr className='hr'/>
         <footer className='footer'>
         <p> © M&R Soluciones de software </p>
-        <p> Designed with Alexander Rodriguez </p>
+        <p> Designed by: Alexander Rodriguez </p>
         </footer>
     </>
   )
