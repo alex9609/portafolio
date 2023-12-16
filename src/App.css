@@ -1,0 +1,110 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-principal{
+    display: flex;
+    align-items: center;
+}
+
+.header-item-title{
+    font-size: 2.4rem;
+
+}
+
+.header-item-text{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.hr{
+    border: none;
+    border-top: 2px solid #21A179; /* Puedes cambiar el color ajustando el valor hexadecimal */
+
+}
+
+.us{
+    display: flex;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+}
+
+.us-text{
+    font-size: 1.1rem;
+    text-align: left;
+}
+.us-desarrollo-software-image{
+    width: 25rem;
+
+}
+
+.title-generic{
+    font-size: 2.4rem;
+}
+.our-proyects{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.proyects-1{
+    grid-column-start: 1;
+}
+
+.proyects-2{
+    grid-column-start: 2;
+}
+.our-proyects-uniminas{
+    width: 25rem;
+}
+
+.our-proyects-pagina{
+    width: 20rem;
+}
+.pattern-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.contact-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #E8E9EB;
+}
+
+.contact-link:hover{
+    color: #21A179;
+}
+
+.contact-figure figcaption{
+    padding-left: 0.5rem;
+}
+.contact-icon{
+    width: 3rem;
+}
+
+.developer-figure{
+    padding: 1rem;
+}
+.developer{
+    border-radius: 50%;
+    width: 75%;    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+
+}
+
