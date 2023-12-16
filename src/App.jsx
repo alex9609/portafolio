@@ -79,7 +79,7 @@ function App() {
                     </a>
                 </figure>
                 <figure className='contact-figure'>
-                    <a className='contact-link' href="mailto:alex1661ander@gmail.com?subject=Desarrollo%20de%20producto&body=Estoy%20interesado%20en%20un%20desarrollo" target="_blank">
+                    <a className='contact-link' href="mailto:minerocontrol23@gmail.com?subject=Desarrollo%20de%20producto&body=Estoy%20interesado%20en%20un%20desarrollo" target="_blank">
                         <img src={gmail} className="contact-icon" alt="gmail" />
                         <figcaption>minerocontrol23@gmil.com</figcaption>
                     </a>
